@@ -1,0 +1,8 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+# lfs changes the location of the files and we don't want distros already in use to change locations
+gradle-blackbaud-2.14.1-bb.1.2-bin.zip filter= diff= merge= -text
+gradle-blackbaud-4.10.2-bb.1.0-bin.zip filter= diff= merge= -text
+gradle-blackbaud-4.10.3-bb.1.0-bin.zip filter= diff= merge= -text
+gradle-blackbaud-4.10.3-bb.1.1-bin.zip filter= diff= merge= -text
+gradle-blackbaud-6.6.1-bb.1.0-bin.zip filter= diff= merge= -text
+
